@@ -1,0 +1,21 @@
+accessWidener	v1	named
+
+extendable class net/minecraft/block/Chest
+accessible field net/minecraft/block/Chest random Ljava/util/math/Random;
+extendable method net/minecraft/block/Chest getMetaTextureIndex (Lnet/minecraft/world/World;IIII)I
+extendable method net/minecraft/block/Chest getTextureIndex (I)I
+extendable method net/minecraft/block/Chest method_90 (Lnet/minecraft/world/World;III)Z
+extendable method net/minecraft/block/Chest method_68 (Lnet/minecraft/world/World;III)Z
+extendable method net/minecraft/block/Chest onRemove (Lnet/minecraft/world/World;III)V
+extendable method net/minecraft/block/Chest use (Lnet/minecraft/world/World;IIILnet/minecraft/entity/living/player/Player;)Z
+extendable method net/minecraft/block/Chest createTileEntity ()Lnet/minecraft/block/tile/TileEntity;
+accessible field net/minecraft/block/tile/Chest stacks [Lnet/minecraft/item/ItemStack;
+extendable method net/minecraft/block/tile/Chest size ()I
+extendable method net/minecraft/block/tile/Chest get (I)Lnet/minecraft/item/ItemStack;
+extendable method net/minecraft/block/tile/Chest damage (II)Lnet/minecraft/item/ItemStack;
+extendable method net/minecraft/block/tile/Chest set (ILnet/minecraft/item/ItemStack;)V
+extendable method net/minecraft/block/tile/Chest getName ()Ljava/lang/String;
+extendable method net/minecraft/block/tile/Chest deserialize (Lnet/minecraft/nbt/CompoundTag;)V
+extendable method net/minecraft/block/tile/Chest serialize (Lnet/minecraft/nbt/CompoundTag;)V
+extendable method net/minecraft/block/tile/Chest method_294 ()I
+accessible method net/minecraft/block/Block method_110 (F)Lnet/minecraft/block/Block;

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "modid",
+  "version": "${version}",
+
+  "name": "Expanded Storage Infdev",
+  "description": "An Infdev port of the expanded storage mod",
+  "authors": [
+    "AmusingImpala75",
+    "NinjaPhenix"
+  ],
+  "contact": {
+    "issues": "https://github.com/amusingimpala75/ExpandedStorageInfdev/issues",
+    "sources": "https://github.com/TextileMC/ExpandedStorageInfdev"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/expandedStorage/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.github.amusingimpala75.expandedStorageInfdev.ExpandedStorageInfdev"
+    ]
+  },
+  "mixins": [
+    "ExpandedStorageInfdev.mixins.json"
+  ],
+  "accessWidener" : "expandedstorageinfdev.accesswidener",
+
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "20100618"
+  }
+}
