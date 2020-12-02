@@ -22,9 +22,9 @@ public abstract class RecipeMixin {
         addShapedRecipe(new ItemStack(ExpandedStorageInfdev.DIAMOND_CHEST, 1), "###", "#@#", "###", '#', Item.DIAMOND, '@', ExpandedStorageInfdev.GOLD_CHEST);
         addShapedRecipe(new ItemStack(ExpandedStorageInfdev.OBSIDIAN_CHEST, 1), "###", "#@#", "###", '#', Block.OBSIDIAN, '@', ExpandedStorageInfdev.DIAMOND_CHEST);
         //TODO: CONVENIENCE RECIPES!! REMOVE IN PRODUCTION
-        addShapedRecipe(new ItemStack(Item.IRON_INGOT, 8), "#", '#', Item.STICK);
-        addShapedRecipe(new ItemStack(Item.GOLD_INGOT, 8), "###", '#', Item.STICK);
-        addShapedRecipe(new ItemStack(Item.DIAMOND, 8), "#  ", "#  ", "#  ", '#', Item.STICK);
-        addShapedRecipe(new ItemStack(Block.OBSIDIAN, 8), "#  ", " # ", "  #", '#', Item.STICK);
+        //addShapedRecipe(new ItemStack(Item.IRON_INGOT, 8), "#", '#', Item.STICK);
+        //addShapedRecipe(new ItemStack(Item.GOLD_INGOT, 8), "###", '#', Item.STICK);
+        //addShapedRecipe(new ItemStack(Item.DIAMOND, 8), "#  ", "#  ", "#  ", '#', Item.STICK);
+        //addShapedRecipe(new ItemStack(Block.OBSIDIAN, 8), "#  ", " # ", "  #", '#', Item.STICK);
     }
 }
